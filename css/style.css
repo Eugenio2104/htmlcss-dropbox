@@ -27,33 +27,25 @@ header{
   right: 0;
   height: 80px;
   background-color:white;
-  box-shadow: 0 1px 3px grey;;
+  box-shadow: 0 1px 3px grey;
 }
 
 header ul{
   display:flex;
   list-style-type: none;
-  font-size: 1.2rem;align-items: center;
-  margin: 0 40px;
-}
-
-ul{
+  font-size: 1.2rem;
+  align-items: center;
   margin-left: 5px;
 }
+
 nav{
   display: flex;
 }
 
-header .logo{
-  margin: 20px;
-}
-
 header nav a{
   text-decoration: none;
-}
-header nav a{
   color: #505050;
-  padding-right: 20px;
+  padding: 30px;
 }
 
 .btn{
