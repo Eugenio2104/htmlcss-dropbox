@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
@@ -40,7 +40,7 @@ img{
 .container-due{
   max-width: 1200px;
   margin: 0 auto;
-  width: 950px;
+  width: 985px;
 }
 
  /*header*/
@@ -151,9 +151,87 @@ main .container-due .fatturazione{
 main .container-due .cards{
   display: flex;
   justify-content: space-between;
+  gap: 70px;
 }
 
 main .container-due .cards-strette{
   width: calc(100% / 3);
   border: 1px solid #D0D0D3;
+  height: 950px;
+}
+
+main .container-due .cards-strette .inizio-card{
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+main .container-due .cards-strette .interno-card{
+  padding: 35px 25px;
+}
+
+main .container-due .cards-strette .interno-card h3{
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+main .container-due .cards-strette .interno-card .prezzo{
+  font-weight: bold;
+}
+
+main .container-due .cards-strette .interno-card .mese{
+  padding-top: 10px;
+}
+
+main .container-due .cards-strette .interno-card .piano{
+  display: flex;
+  padding-top: 45px;
+  margin-bottom: 20px;
+}
+
+main .container-due .cards-strette .interno-card p{
+ padding-right: 5px;
+ font-size: 0.9rem;
+}
+
+main .container-due .cards-strette .interno-card .piano ul{
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+main .container-due .cards-strette .interno-card .piano ul li{
+ display: flex;
+ padding-bottom: 20px;
+}
+
+main .container-due .cards-strette .interno-card .acquista{
+  margin-top: 40px;
+}
+
+
+main .container-due .cards-strette .interno-card .acquista a{
+  color: #0061ff;
+}
+
+main .container-due .cards-strette .interno-card .punti-salienti{
+  padding-top: 45px;
+  margin-bottom: 20px;
+}
+
+main .container-due .cards-strette .interno-card .punti-salienti h4{
+  margin-bottom: 40px;
+}
+
+main .container-due .cards-strette .interno-card .punti-salienti ul{
+  list-style:none;
+}
+
+main .container-due .cards-strette .interno-card .punti-salienti ul li{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+main .container-due .cards-strette .interno-card .punti-salienti ul li i{
+  color: #0061ff;
+  padding-right: 10px;
 }
