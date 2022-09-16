@@ -147,3 +147,13 @@ main .container-due .fatturazione{
 }
 
 /*card*/
+
+main .container-due .cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container-due .cards-strette{
+  width: calc(100% / 3);
+  border: 1px solid #D0D0D3;
+}
