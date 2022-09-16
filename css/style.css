@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- /* outline: 2px solid red;*/
+  outline: 2px solid red;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
@@ -37,6 +37,12 @@ img{
   margin: 0 auto;
 }
 
+.container-due{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 950px;
+}
+
  /*header*/
 header{
   display: flex;
@@ -69,6 +75,7 @@ header nav a{
   color: #505050;
   padding: 30px;
 }
+
 
 
 /*fine header*/
@@ -115,9 +122,28 @@ main .jumbotron .container .jumbo-down .jumbo-down-sinistra i{
   font-size: 3rem;
 }
 
+main a{
+  text-decoration: none;
+  color: white;
+}
+
+
 /*fine jumbo*/
 
 
+/*container due*/
 
+main .container-due .titolo-h2{
+  margin-top: 180px;
+  margin-bottom: 80px;
+}
 
+main .container-due .fatturazione{
+  margin-bottom: 50px;
+}
 
+.fa-circle{
+  margin-left: 60px;
+}
+
+/*card*/
