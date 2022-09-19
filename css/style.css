@@ -344,3 +344,58 @@ main .container-due .business .business-insertion .box-business p{
   margin-right: 50px;
   margin-bottom: 50px;
 }
+
+main .container-due .sottotitolo{
+  margin-top: 150px;
+  padding-bottom: 55px;
+  width: 462px;
+  font-size: 1.5rem;
+}
+
+main .container-due .scopri{
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+/*BOX Quadrati*/
+
+main .contenitore-quadrati{
+  display: flex;
+  margin-top: 120px;
+}
+
+main .contenitore-quadrati img{
+  
+  width: 100px;
+}
+
+main .contenitore-quadrati .box-left{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  height: 30vw;
+}
+
+main .contenitore-quadrati .box-center{
+  display: flex;
+  width: calc(100% / 3);
+  background-color: #f5f5f5;
+}
+
+main .contenitore-quadrati .box-right{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  height: 30vw;
+}
+
+ main .contenitore-quadrati .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+ }
+
+ main .contenitore-quadrati .box-verde{
+  background-color: #a2d39b;
+ }
