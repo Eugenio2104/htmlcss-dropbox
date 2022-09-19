@@ -365,7 +365,6 @@ main .contenitore-quadrati{
 }
 
 main .contenitore-quadrati img{
-  
   width: 100px;
 }
 
@@ -394,8 +393,54 @@ main .contenitore-quadrati .box-right{
   justify-content: center;
   align-items: center;
   width: 50%;
+  height: 50%;
  }
 
  main .contenitore-quadrati .box-verde{
   background-color: #a2d39b;
  }
+
+ main .contenitore-quadrati .box-brown{
+  background-color: #61082b;
+ }
+
+ main .contenitore-quadrati .box-azzurro{
+  background-color: #0093ce;
+ }
+
+ main .contenitore-quadrati .box-arancio{
+  background-color: #ff1c1c;
+ }
+
+ main .contenitore-quadrati .box-rosso{
+  background-color: #d5001f;
+ }
+
+ main .contenitore-quadrati .box-celeste{
+  background-color: #b4d0e7;
+ }
+
+ main .contenitore-quadrati .box-blu{
+  background-color: #0d2481;
+ }
+
+ main .contenitore-quadrati .box-giallo{
+  background-color: #ffd830;
+ }
+
+ .active:active{
+  border: 20px solid rgba(0, 0, 0, .5);
+ }
+
+ main .contenitore-quadrati .box-center .center-logo{
+  padding: 30px;
+ }
+
+ main .contenitore-quadrati .box-center .center-logo img{
+  width: 250px;
+ }
+
+ main .contenitore-quadrati .box-center.center-
+
+
+  
