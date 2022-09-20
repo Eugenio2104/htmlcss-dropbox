@@ -440,7 +440,27 @@ main .contenitore-quadrati .box-right{
   width: 250px;
  }
 
- main .contenitore-quadrati .box-center.center-
+ main .contenitore-quadrati .box-center .paragrafo{
+  margin-top: 20px;
+ }
+ 
+ main .contenitore-riquadro{
 
+  padding: 150px;
+  background-color: #b4d0e7;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
 
-  
+ main .contenitore-riquadro .container-due .titolo-riquadro{
+
+  display: flex;
+
+ 
+ }
+
+ main .contenitore-riquadro #partner{
+
+ }
+
